@@ -1,0 +1,142 @@
+Example flow record stored in readlines.pl.
+
+start_sort() sorts the shortened entries for 'dots' to print out the other way around. 
+sort value is time_start. Other shortened entries are claffy, claffy_tcp,netramet.
+
+
+$VAR7 = '10.0.0.51:42832->10.0.1.17:80 [tcp]';
+$VAR8 = {
+          'dots' => [
+                      {
+                        'time_start' => '192.005868',
+                        'time_expire' => '256.006688',
+                        'data_in' => '40',
+                        'packet_out' => '2',
+                        'status' => 'Expired',
+                        'hash' => 7939,
+                        'time_end' => '192.006688',
+                        'packet_in' => '1',
+                        'list' => 'Delete List',
+                        'data_out' => '80'
+                      },
+                      {
+                        'time_start' => '72.234081',
+                        'time_expire' => '136.568347',
+                        'data_in' => '4397',
+                        'packet_out' => '6',
+                        'status' => 'Expired',
+                        'hash' => 7939,
+                        'time_end' => '72.568347',
+                        'packet_in' => '5',
+                        'list' => 'Delete List',
+                        'data_out' => '744'
+                      }
+                    ],
+          'rfc' => [
+                     {
+                       'time_start' => '72.234081',
+                       'time_expire' => '7632.006688',
+                       'data_in' => '4437',
+                       'packet_out' => '8',
+                       'status' => 'Active',
+                       'hash' => 7939,
+                       'time_end' => '192.006688',
+                       'packet_in' => '6',
+                       'list' => 'established TCP',
+                       'data_out' => '824'
+                     }
+                   ],
+          'claffy_unlimited' => [
+                                  {
+                                    'time_start' => '72.234081',
+                                    'time_expire' => '31536192.006688',
+                                    'data_in' => '4437',
+                                    'packet_out' => '8',
+                                    'status' => 'Active',
+                                    'hash' => 7939,
+                                    'time_end' => '192.006688',
+                                    'packet_in' => '6',
+                                    'list' => 'Expire Claffy',
+                                    'data_out' => '824'
+                                  }
+                                ],
+          'claffy' => [
+                        {
+                          'time_start' => '192.005868',
+                          'time_expire' => '256.006688',
+                          'data_in' => '40',
+                          'packet_out' => '2',
+                          'status' => 'Expired',
+                          'hash' => 7939,
+                          'time_end' => '192.006688',
+                          'packet_in' => '1',
+                          'list' => 'Delete List',
+                          'data_out' => '80'
+                        },
+                        {
+                          'time_start' => '72.234081',
+                          'time_expire' => '136.568347',
+                          'data_in' => '4397',
+                          'packet_out' => '6',
+                          'status' => 'Expired',
+                          'hash' => 7939,
+                          'time_end' => '72.568347',
+                          'packet_in' => '5',
+                          'list' => 'Delete List',
+                          'data_out' => '744'
+                        }
+                      ],
+          'netramet' => [
+                          {
+                            'time_start' => '192.005868',
+                            'time_expire' => '192.006688',
+                            'data_in' => '40',
+                            'packet_out' => '2',
+                            'status' => 'Expired',
+                            'hash' => 7939,
+                            'time_end' => '192.006688',
+                            'packet_in' => '1',
+                            'list' => 'Delete List',
+                            'data_out' => '80'
+                          },
+                          {
+                            'time_start' => '72.234081',
+                            'time_expire' => '77.234081',
+                            'data_in' => '4397',
+                            'packet_out' => '6',
+                            'status' => 'Expired',
+                            'hash' => 7939,
+                            'time_end' => '72.568347',
+                            'packet_in' => '5',
+                            'list' => 'Delete List',
+                            'data_out' => '744'
+                          }
+                        ],
+          'claffy_tcp' => [
+                            {
+                              'time_start' => '192.005868',
+                              'time_expire' => '192.006688',
+                              'data_in' => '40',
+                              'packet_out' => '2',
+                              'status' => 'Expired',
+                              'hash' => 7939,
+                              'time_end' => '192.006688',
+                              'packet_in' => '1',
+                              'list' => 'Delete List',
+                              'data_out' => '80'
+                            },
+                            {
+                              'time_start' => '72.234081',
+                              'time_expire' => '136.568347',
+                              'data_in' => '4397',
+                              'packet_out' => '6',
+                              'status' => 'Expired',
+                              'hash' => 7939,
+                              'time_end' => '72.568347',
+                              'packet_in' => '5',
+                              'list' => 'Delete List',
+                              'data_out' => '744'
+                            }
+                          ]
+        };
+entries in store: 4
