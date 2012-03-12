@@ -1,3 +1,6 @@
 To get libflowmanager-2.0.0 (a highly modified version) up and running, see the README file in that folder.
 
 The dissertation that accompanies this project is in the documentation folder. It details the algorithms implemented, and the ideas behind the code.
+
+Debian/Ubuntu Requirements:
+sudo apt-get install libtool autoconf libtrace3 libtrace3-dev libtrace-tools libtoolize 
